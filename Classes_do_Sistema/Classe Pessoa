@@ -2,7 +2,7 @@
 public class Pessoa{
    private String nome;
    private String telefone;
-   private Data dataNascimento; //USANDO COMPOSIÇÃO, JA QUE O ATRIBUTO 'dataNascimento' e DO TIPO DATA
+   private Data dataNascimento; //USANDO COMPOSIÇÃO, JA QUE O ATRIBUTO 'dataNascimento' É DO TIPO DATA
    
 //METODO CONSTRUTOR - INICIA OS VALORES DOS ATRIBUTOS DO OBJETO CRIADO
    public Pessoa(String nome, String telefone, Data dataNascimento){
