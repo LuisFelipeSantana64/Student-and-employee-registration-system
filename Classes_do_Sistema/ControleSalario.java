@@ -10,7 +10,7 @@ public class ControleSalario{
           System.out.println("\nSoma do salario de todos os funcionario: "+somaSalario);
        }
        
-    //CRIANDO UM METODO ESTÁTICO QUE SOMA O 'salarioComBonificao' DE TODOS OS OBJETOS, DO VETOR QUE FOI PASSADO POR PARAMETRO - O METODO PODE SER ACESSADO SEM SER PRECISO CRIAR UM OBJETO DA CLASSE 'ControleSalario'     public static void somarSalario(Funcionario vetor[]){ 
+    //CRIANDO UM MÉTODO ESTÁTICO QUE SOMA O 'salarioComBonificao' DE TODOS OS OBJETOS, DO VETOR QUE FOI PASSADO POR PARAMETRO - O METODO PODE SER ACESSADO SEM SER PRECISO CRIAR UM OBJETO DA CLASSE 'ControleSalario'     public static void somarSalario(Funcionario vetor[]){ 
        public static void somarSalarioBonificado(Funcionario vetor[]){
           double somaSalarioBonificado = vetor[0].salarioComBonificacao();
           for(int i=1; i<vetor.length; i++){
