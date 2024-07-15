@@ -22,7 +22,7 @@ public class Chefe extends Funcionario{ //A CLASSE 'Chefe' ESTENDE A CLASSE 'Fun
       this.cargo = cargo;
    }
        
-//FUNCAO BONIFICAR - RETORNA O VALOR DE 20% DO SALARIO DO OBJETO
+//FUNÇÃO BONIFICAR - RETORNA O VALOR DE 20% DO SALARIO DO OBJETO
    public double bonificar(){
       return super.getSalario() * 0.2;
    }
